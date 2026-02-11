@@ -21,7 +21,8 @@ except ValueError:
 try:
     num = int(input("Enter a number: "))
     result = 10 / num  # 0으로 나누면 ZeroDivisionError 발생
-    print(f"10 / {num} = {result}")
+    print(f"10 / {num} = {result}") # 10 / 사용자입력값 num = 결과값 result
+    print(result) # 결과값 result만 출력
 except ValueError:
     print("숫자를 입력해주세요!")
 except ZeroDivisionError:
