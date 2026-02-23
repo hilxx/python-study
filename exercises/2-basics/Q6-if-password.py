@@ -10,3 +10,13 @@ if user_password == password:
 else:
   print("로그인 실패")
 
+
+#########
+# 다른 정답
+pw = input("비밀번호 입력: ")
+
+if pw == "1234":
+  print("로그인 성공")
+else:
+  print("로그인 실패")
+
